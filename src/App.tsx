@@ -1,6 +1,5 @@
 import './App.css'
 import {useEffect, useState} from "react";
-import {IconBeer} from "./IconBeer.tsx";
 import BeerGlass from "./BeerGlass.tsx";
 
 function App() {
