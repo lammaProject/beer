@@ -23,7 +23,7 @@ function App() {
                 Счетчик пива 🍺
                 Всего {countBeer}
             </h2>
-            <span className={'grid grid-cols-3'}>
+            <span className={'grid sm:grid-cols-2 items-center justify-center'}>
             {Array.from(Array(countBeer).keys()).map((_, i) => (
                 <BeerGlass key={i} id={i}/>
             ))}
